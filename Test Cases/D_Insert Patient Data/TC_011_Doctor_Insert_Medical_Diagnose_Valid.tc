@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_011_Doctor_Insert_Medical_Diagnose_Valid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8b49c39b-1fc4-4c57-aa44-0f52abfa1312</testCaseGuid>
+</TestCaseEntity>

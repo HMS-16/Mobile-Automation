@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_01_SignIn_As_Doctor</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>651327ca-1ded-429b-8e7e-a1be55b17c2d</testCaseGuid>
+</TestCaseEntity>

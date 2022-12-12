@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_002_Register_Nurse_Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dfa3f2a0-1b5e-48fb-874c-785712113834</testCaseGuid>
+</TestCaseEntity>

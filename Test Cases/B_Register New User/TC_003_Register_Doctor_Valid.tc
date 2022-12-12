@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_Mob_SignIn_Doctor</name>
+   <name>TC_003_Register_Doctor_Valid</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>3a84f8dd-05d8-4bf3-88bf-8cacf5a9a764</testCaseGuid>
+   <testCaseGuid>13f727c3-fda8-4857-9ada-85694ba79d6a</testCaseGuid>
 </TestCaseEntity>
