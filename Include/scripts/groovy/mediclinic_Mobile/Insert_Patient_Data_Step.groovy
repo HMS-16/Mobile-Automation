@@ -50,7 +50,7 @@ class Insert_Patient_Data_Step {
 	 */
 	@Given("I want to write a step with (.*)")
 	def I_want_to_write_a_step_with_name(String name) {
-		println name
+		printl  ccc
 	}
 
 	@When("I check for the (\\d+) in step")
