@@ -19,34 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\User\\Downloads\\Mediclinic v.1.0.7.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.view.View (1)'), 0)
+Mobile.tap(findTestObject('Object Repository/test/android.view.View'), 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.Button (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/test/android.widget.Button'), 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Email (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/test/android.widget.EditText - Email'), 0)
 
-Mobile.setText(findTestObject('Object Repository/SignIn/android.widget.EditText - Email (3)'), 'admin@hms.com', 0)
-
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Password (2)'), 0)
-
-Mobile.setText(findTestObject('Object Repository/SignIn/android.widget.EditText - Password (3)'), 'admin', 0)
-
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.Button (3)'), 0)
-
-Mobile.delay(0, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject(''), 0)
-
-Mobile.tap(findTestObject('Object Repository/SignIn/android.view.View (2)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Name'), 0)
-
-Mobile.setText(findTestObject('Object Repository/SignIn/android.widget.EditText - Testingdoctor2, Name'), 'TestingDoktorDua', 
-    0)
-
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Registration Number'), 0)
-
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.Button (4)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/SignIn/android.view.View (3)'), 0)
+Mobile.closeApplication()
 

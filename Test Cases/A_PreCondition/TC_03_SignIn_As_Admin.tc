@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_01_SignIn_As_Doctor</name>
+   <name>TC_03_SignIn_As_Admin</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>651327ca-1ded-429b-8e7e-a1be55b17c2d</testCaseGuid>
+   <testCaseGuid>5bd5f981-1377-460e-9179-b17414dae201</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>70fb9178-21cc-441c-ad70-9ef06b77ae83</variableId>
+      <variableId>08041c1f-1e83-49ab-a18f-edc7c80f69c0</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>82f42c47-3e0a-4382-a580-88f3d75fdefc</variableId>
+      <variableId>d0d81fcd-b486-4a39-a536-f6778c4650b8</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'doctor@gmail.com'</defaultValue>
+      <defaultValue>'nurse@gmail.com'</defaultValue>
       <description></description>
-      <id>70fb9178-21cc-441c-ad70-9ef06b77ae83</id>
+      <id>08041c1f-1e83-49ab-a18f-edc7c80f69c0</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
       <defaultValue>'password'</defaultValue>
       <description></description>
-      <id>82f42c47-3e0a-4382-a580-88f3d75fdefc</id>
+      <id>d0d81fcd-b486-4a39-a536-f6778c4650b8</id>
       <masked>false</masked>
       <name>password</name>
    </variable>

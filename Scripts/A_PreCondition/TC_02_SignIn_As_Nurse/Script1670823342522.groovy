@@ -17,3 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\User\\Downloads\\Mediclinic v.1.0.7.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/SignIn/android.view.View'), 0)
+
+Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.Button'), 0)
+
+Mobile.tap(findTestObject('SignIn/android.widget.EditText - Email'), 0)
+
+Mobile.setText(findTestObject('SignIn/android.widget.EditText - Email'), email, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Password'), 0)
+
+Mobile.setText(findTestObject('SignIn/android.widget.EditText - Password'), password, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('SignIn/android.widget.Button'), 0)
+
+Mobile.verifyElementText(findTestObject(null), '')
+

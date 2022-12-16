@@ -17,3 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startApplication('C:\\Users\\User\\Downloads\\Mediclinic v.1.0.7.apk', true)
+
+Mobile.tap(findTestObject('Object Repository/invalid/Email can not be empty'), 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/invalid/Password Can not be empty'), 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Object Repository/invalid/android.widget.EditText - Email'), 0)
+
+Mobile.closeApplication()
+

@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/A_PreCondition/TC_00_SignIn_Admin_Mobile","testCaseId":"Test Cases/A_PreCondition/TC_00_SignIn_Admin_Mobile","iterationVariableName":""}
+{"testCaseName":"Test Cases/A_PreCondition/TC_00_SignIn_Admin_Mobile","testCaseId":"Test Cases/A_PreCondition/TC_00_SignIn_Admin_Mobile","iterationVariableName":"","bindedValues":{"password":"\u0027admin\u0027"}}
+{"testCaseName":"Test Cases/A_PreCondition/TC_00_SignIn_Admin_Mobile","testCaseId":"Test Cases/A_PreCondition/TC_00_SignIn_Admin_Mobile","iterationVariableName":"","bindedValues":{"email":"\u0027ssds\u0027"}}
+{"testCaseName":"Test Cases/A_PreCondition/TC_00_SignIn_Admin_Mobile","testCaseId":"Test Cases/A_PreCondition/TC_00_SignIn_Admin_Mobile","iterationVariableName":"","bindedValues":{"email":"\u0027admin@hms.com\u0027"}}
+{"testCaseName":"Test Cases/A_PreCondition/TC_00_SignIn_Admin_Mobile","testCaseId":"Test Cases/A_PreCondition/TC_00_SignIn_Admin_Mobile","iterationVariableName":"","bindedValues":{"password":"\u0027sss\u0027","email":"\u0027admin@hms.com\u0027"}}

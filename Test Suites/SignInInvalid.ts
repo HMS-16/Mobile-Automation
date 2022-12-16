@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>SignInInvalid</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>27696281-43a5-4411-b9c0-4404a6868435</testSuiteGuid>
+   <testCaseLink>
+      <guid>59a4f69c-0ec7-4050-8a43-12367083d556</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/A_PreCondition/TC_00_SignIn Invalid</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b7aa8c4a-67b4-4c08-b39d-566f0a23c033</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/InvalidSignIn</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>b7aa8c4a-67b4-4c08-b39d-566f0a23c033</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>5f176066-c2fc-4c0a-b4c9-897985fff69e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b7aa8c4a-67b4-4c08-b39d-566f0a23c033</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>e73f0eb4-795d-4db8-be48-c563b51114a3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

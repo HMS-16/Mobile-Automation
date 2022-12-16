@@ -19,34 +19,31 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\User\\Downloads\\Mediclinic v.1.0.7.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.view.View (1)'), 0)
+Mobile.setText(findTestObject('Object Repository/lagi/android.widget.EditText - Email'), 'admim', 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.Button (2)'), 0)
+Mobile.tap(findTestObject('Object Repository/lagi/android.widget.EditText - admim, Email'), 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Email (2)'), 0)
+Mobile.setText(findTestObject('Object Repository/lagi/android.widget.EditText - Email (1)'), 'adnib', 0)
 
-Mobile.setText(findTestObject('Object Repository/SignIn/android.widget.EditText - Email (3)'), 'admin@hms.com', 0)
+Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Password (2)'), 0)
+Mobile.getText(findTestObject('Object Repository/lagi/Invalid Email'), 0)
 
-Mobile.setText(findTestObject('Object Repository/SignIn/android.widget.EditText - Password (3)'), 'admin', 0)
+Mobile.setText(findTestObject('Object Repository/lagi/android.widget.EditText - Password'), 'sss', 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.Button (3)'), 0)
+Mobile.tap(findTestObject('Object Repository/lagi/android.widget.EditText - sss, Password'), 0)
 
-Mobile.delay(0, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Object Repository/lagi/android.widget.EditText - Password (1)'), 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.setText(findTestObject(''), 'sss', 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.view.View (2)'), 0)
+Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Name'), 0)
+Mobile.tap(findTestObject('Object Repository/lagi/Password length invalid'), 0)
 
-Mobile.setText(findTestObject('Object Repository/SignIn/android.widget.EditText - Testingdoctor2, Name'), 'TestingDoktorDua', 
-    0)
+Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Registration Number'), 0)
+Mobile.getText(findTestObject(''), 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.Button (4)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/SignIn/android.view.View (3)'), 0)
+Mobile.closeApplication()
 

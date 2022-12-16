@@ -37,5 +37,21 @@ Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('SignIn/android.widget.Button'), 0)
 
-Mobile.verifyElementText(findTestObject(null), '')
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+//
+//Mobile.getText(findTestObject('SignIn/android.widget.EditText - Email'), 0)
+if (email == '') {
+    Mobile.verifyElementVisible(findTestObject('invalid/Email can not be empty'), 0 //if ((email == '') || ((email.contains('@gmail.com') == false) || (email.contains('@hms.com') == false)) {
+        )
+} else if ((email != email.contains('@gmail.com')) || (email != email.contains('@hms.com'))) {
+    Mobile.verifyElementVisible(findTestObject('lagi/Invalid Email'), 0)
+}
+
+//Mobile.setText(findTestObject('SignIn/android.widget.EditText - Password'), password, 0)
+if (password == '') {
+    Mobile.verifyElementVisible(findTestObject('invalid/Password Can not be empty'), 0)
+} else if (password.length() < 5) {
+    Mobile.verifyElementVisible(findTestObject('lagi/Password length invalid'), 0)
+}
 
