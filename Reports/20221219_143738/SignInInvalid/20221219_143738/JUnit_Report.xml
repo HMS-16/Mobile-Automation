@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SignInInvalid" time="172.266" tests="5" failures="0" errors="0">
+   <testsuite name="SignInInvalid" tests="5" failures="0" errors="0" time="172.266" skipped="0" timestamp="2022-12-19 14:37:42" hostname="User - LAPTOP-N3L575R3" id="Test Suites/SignInInvalid">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (AOSP on IA Emulator - Android 9)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Kuliah\\semester 7\\KATALON\\Capstone Project\\Mobile-Automation\\Reports\\20221219_143738\\SignInInvalid\\20221219_143738"/>
+         <property name="logFiles" value="D:\\Kuliah\\semester 7\\KATALON\\Capstone Project\\Mobile-Automation\\Reports\\20221219_143738\\SignInInvalid\\20221219_143738\\appium.log, D:\\Kuliah\\semester 7\\KATALON\\Capstone Project\\Mobile-Automation\\Reports\\20221219_143738\\SignInInvalid\\20221219_143738\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="User - LAPTOP-N3L575R3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="AOSP on IA Emulator"/>
+         <property name="hostAddress" value="192.168.43.87"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (AOSP on IA Emulator - Android 9)"/>
+         <property name="deviceOSVersion" value="9"/>
+      </properties>
+      <testcase name="Test Cases/A_PreCondition/TC_00_SignIn Invalid" time="42.207" classname="Test Cases/A_PreCondition/TC_00_SignIn Invalid" status="PASSED">
+         <system-out><![CDATA[2022-12-19 14:37:43 - [TEST_CASE][PASSED] - Test Cases/A_PreCondition/TC_00_SignIn Invalid: Test Cases/A_PreCondition/TC_00_SignIn Invalid
+
+2022-12-19 14:37:43 - [TEST_STEP][PASSED] - startApplication("C:\Users\User\Downloads\Mediclinic v.1.0.8.apk", true): Started app at: 'C:\Users\User\Downloads\Mediclinic v.1.0.8.apk'
+
+2022-12-19 14:37:44 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-12-19 14:37:47 - [MESSAGE][INFO] - Appium server started on port 50,266
+
+2022-12-19 14:38:09 - [MESSAGE][PASSED] - Started app at: 'C:\Users\User\Downloads\Mediclinic v.1.0.8.apk'
+
+2022-12-19 14:38:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/invalid1/SignIn/android.view.View"), 0): Tapped on element 'Object Repository/invalid1/SignIn/android.view.View'
+
+2022-12-19 14:38:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/invalid1/SignIn/android.view.View'
+
+2022-12-19 14:38:11 - [TEST_STEP][PASSED] - tap(findTestObject("invalid1/invalid/Button_SplashScreen_SignIn"), 0): Tapped on element 'Object Repository/invalid1/invalid/Button_SplashScreen_SignIn'
+
+2022-12-19 14:38:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/invalid1/invalid/Button_SplashScreen_SignIn'
+
+2022-12-19 14:38:12 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:38:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:38:13 - [TEST_STEP][PASSED] - setText(findTestObject("Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn"), email, 0): Text '' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:38:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:14 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:38:14 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-19 14:38:15 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-19 14:38:15 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:38:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:38:16 - [TEST_STEP][PASSED] - setText(findTestObject("Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn"), password, 0): Text '' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:38:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:17 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:38:17 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-19 14:38:19 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-19 14:38:19 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Button_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Button_SignIn'
+
+2022-12-19 14:38:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Button_SignIn'
+
+2022-12-19 14:38:19 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-12-19 14:38:25 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-19 14:38:25 - [TEST_STEP][PASSED] - if (email == ""): Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Email-Empty-SignIn' is visible
+
+2022-12-19 14:38:25 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Invalid_SignIn_And_SignUp/Text_v8_Email-Empty-SignIn"), 0): Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Email-Empty-SignIn' is visible
+
+2022-12-19 14:38:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:25 - [MESSAGE][PASSED] - Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Email-Empty-SignIn' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/A_PreCondition/TC_00_SignIn Invalid" time="33.28" classname="Test Cases/A_PreCondition/TC_00_SignIn Invalid" status="PASSED">
+         <system-out><![CDATA[2022-12-19 14:38:25 - [TEST_CASE][PASSED] - Test Cases/A_PreCondition/TC_00_SignIn Invalid: Test Cases/A_PreCondition/TC_00_SignIn Invalid
+
+2022-12-19 14:38:25 - [TEST_STEP][PASSED] - startApplication("C:\Users\User\Downloads\Mediclinic v.1.0.8.apk", true): Started app at: 'C:\Users\User\Downloads\Mediclinic v.1.0.8.apk'
+
+2022-12-19 14:38:40 - [MESSAGE][PASSED] - Started app at: 'C:\Users\User\Downloads\Mediclinic v.1.0.8.apk'
+
+2022-12-19 14:38:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/invalid1/SignIn/android.view.View"), 0): Tapped on element 'Object Repository/invalid1/SignIn/android.view.View'
+
+2022-12-19 14:38:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/invalid1/SignIn/android.view.View'
+
+2022-12-19 14:38:41 - [TEST_STEP][PASSED] - tap(findTestObject("invalid1/invalid/Button_SplashScreen_SignIn"), 0): Tapped on element 'Object Repository/invalid1/invalid/Button_SplashScreen_SignIn'
+
+2022-12-19 14:38:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/invalid1/invalid/Button_SplashScreen_SignIn'
+
+2022-12-19 14:38:45 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:38:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:38:46 - [TEST_STEP][PASSED] - setText(findTestObject("Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn"), email, 0): Text '' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:38:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:47 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:38:47 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-19 14:38:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-19 14:38:48 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:38:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:38:49 - [TEST_STEP][PASSED] - setText(findTestObject("Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn"), password, 0): Text 'admin' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:38:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:50 - [MESSAGE][PASSED] - Text 'admin' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:38:50 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-19 14:38:52 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-19 14:38:52 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Button_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Button_SignIn'
+
+2022-12-19 14:38:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Button_SignIn'
+
+2022-12-19 14:38:53 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-12-19 14:38:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-19 14:38:58 - [TEST_STEP][PASSED] - if (email == ""): Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Email-Empty-SignIn' is visible
+
+2022-12-19 14:38:58 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Invalid_SignIn_And_SignUp/Text_v8_Email-Empty-SignIn"), 0): Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Email-Empty-SignIn' is visible
+
+2022-12-19 14:38:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:38:58 - [MESSAGE][PASSED] - Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Email-Empty-SignIn' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/A_PreCondition/TC_00_SignIn Invalid" time="31.971" classname="Test Cases/A_PreCondition/TC_00_SignIn Invalid" status="PASSED">
+         <system-out><![CDATA[2022-12-19 14:38:58 - [TEST_CASE][PASSED] - Test Cases/A_PreCondition/TC_00_SignIn Invalid: Test Cases/A_PreCondition/TC_00_SignIn Invalid
+
+2022-12-19 14:38:58 - [TEST_STEP][PASSED] - startApplication("C:\Users\User\Downloads\Mediclinic v.1.0.8.apk", true): Started app at: 'C:\Users\User\Downloads\Mediclinic v.1.0.8.apk'
+
+2022-12-19 14:39:12 - [MESSAGE][PASSED] - Started app at: 'C:\Users\User\Downloads\Mediclinic v.1.0.8.apk'
+
+2022-12-19 14:39:12 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/invalid1/SignIn/android.view.View"), 0): Tapped on element 'Object Repository/invalid1/SignIn/android.view.View'
+
+2022-12-19 14:39:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/invalid1/SignIn/android.view.View'
+
+2022-12-19 14:39:13 - [TEST_STEP][PASSED] - tap(findTestObject("invalid1/invalid/Button_SplashScreen_SignIn"), 0): Tapped on element 'Object Repository/invalid1/invalid/Button_SplashScreen_SignIn'
+
+2022-12-19 14:39:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/invalid1/invalid/Button_SplashScreen_SignIn'
+
+2022-12-19 14:39:16 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:39:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:39:18 - [TEST_STEP][PASSED] - setText(findTestObject("Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn"), email, 0): Text 'ssds' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:39:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:19 - [MESSAGE][PASSED] - Text 'ssds' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:39:19 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-19 14:39:20 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-19 14:39:20 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:39:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:39:20 - [TEST_STEP][PASSED] - setText(findTestObject("Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn"), password, 0): Text '' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:39:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:22 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:39:22 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-19 14:39:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-19 14:39:24 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Button_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Button_SignIn'
+
+2022-12-19 14:39:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Button_SignIn'
+
+2022-12-19 14:39:25 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-12-19 14:39:30 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-19 14:39:30 - [TEST_STEP][PASSED] - if (email == ""): null
+
+2022-12-19 14:39:30 - [TEST_STEP][PASSED] - else if (email.contains("@gmail.com") || email.contains("@hms.com") == false): Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Email Invalid_SignIn' is visible
+
+2022-12-19 14:39:30 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Invalid_SignIn_And_SignUp/Text_v8_Email Invalid_SignIn"), 0): Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Email Invalid_SignIn' is visible
+
+2022-12-19 14:39:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:30 - [MESSAGE][PASSED] - Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Email Invalid_SignIn' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/A_PreCondition/TC_00_SignIn Invalid" time="31.927" classname="Test Cases/A_PreCondition/TC_00_SignIn Invalid" status="PASSED">
+         <system-out><![CDATA[2022-12-19 14:39:30 - [TEST_CASE][PASSED] - Test Cases/A_PreCondition/TC_00_SignIn Invalid: Test Cases/A_PreCondition/TC_00_SignIn Invalid
+
+2022-12-19 14:39:30 - [TEST_STEP][PASSED] - startApplication("C:\Users\User\Downloads\Mediclinic v.1.0.8.apk", true): Started app at: 'C:\Users\User\Downloads\Mediclinic v.1.0.8.apk'
+
+2022-12-19 14:39:44 - [MESSAGE][PASSED] - Started app at: 'C:\Users\User\Downloads\Mediclinic v.1.0.8.apk'
+
+2022-12-19 14:39:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/invalid1/SignIn/android.view.View"), 0): Tapped on element 'Object Repository/invalid1/SignIn/android.view.View'
+
+2022-12-19 14:39:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/invalid1/SignIn/android.view.View'
+
+2022-12-19 14:39:45 - [TEST_STEP][PASSED] - tap(findTestObject("invalid1/invalid/Button_SplashScreen_SignIn"), 0): Tapped on element 'Object Repository/invalid1/invalid/Button_SplashScreen_SignIn'
+
+2022-12-19 14:39:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:48 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/invalid1/invalid/Button_SplashScreen_SignIn'
+
+2022-12-19 14:39:48 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:39:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:39:50 - [TEST_STEP][PASSED] - setText(findTestObject("Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn"), email, 0): Text 'admin@hms.com' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:39:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:51 - [MESSAGE][PASSED] - Text 'admin@hms.com' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:39:51 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-19 14:39:52 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-19 14:39:52 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:39:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:39:52 - [TEST_STEP][PASSED] - setText(findTestObject("Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn"), password, 0): Text '' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:39:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:53 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:39:53 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-19 14:39:56 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-19 14:39:56 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Button_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Button_SignIn'
+
+2022-12-19 14:39:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:39:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Button_SignIn'
+
+2022-12-19 14:39:57 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-12-19 14:40:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-19 14:40:02 - [TEST_STEP][PASSED] - if (email == ""): null
+
+2022-12-19 14:40:02 - [TEST_STEP][PASSED] - else if (email.contains("@gmail.com") || email.contains("@hms.com") == false): null
+
+2022-12-19 14:40:02 - [TEST_STEP][PASSED] - else if (password == ""): Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Password_Empty_SignIn' is visible
+
+2022-12-19 14:40:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Invalid_SignIn_And_SignUp/Text_v8_Password_Empty_SignIn"), 0): Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Password_Empty_SignIn' is visible
+
+2022-12-19 14:40:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:40:02 - [MESSAGE][PASSED] - Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Password_Empty_SignIn' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/A_PreCondition/TC_00_SignIn Invalid" time="32.373" classname="Test Cases/A_PreCondition/TC_00_SignIn Invalid" status="PASSED">
+         <system-out><![CDATA[2022-12-19 14:40:02 - [TEST_CASE][PASSED] - Test Cases/A_PreCondition/TC_00_SignIn Invalid: Test Cases/A_PreCondition/TC_00_SignIn Invalid
+
+2022-12-19 14:40:02 - [TEST_STEP][PASSED] - startApplication("C:\Users\User\Downloads\Mediclinic v.1.0.8.apk", true): Started app at: 'C:\Users\User\Downloads\Mediclinic v.1.0.8.apk'
+
+2022-12-19 14:40:16 - [MESSAGE][PASSED] - Started app at: 'C:\Users\User\Downloads\Mediclinic v.1.0.8.apk'
+
+2022-12-19 14:40:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/invalid1/SignIn/android.view.View"), 0): Tapped on element 'Object Repository/invalid1/SignIn/android.view.View'
+
+2022-12-19 14:40:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:40:18 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/invalid1/SignIn/android.view.View'
+
+2022-12-19 14:40:18 - [TEST_STEP][PASSED] - tap(findTestObject("invalid1/invalid/Button_SplashScreen_SignIn"), 0): Tapped on element 'Object Repository/invalid1/invalid/Button_SplashScreen_SignIn'
+
+2022-12-19 14:40:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:40:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/invalid1/invalid/Button_SplashScreen_SignIn'
+
+2022-12-19 14:40:21 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:40:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:40:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:40:22 - [TEST_STEP][PASSED] - setText(findTestObject("Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn"), email, 0): Text 'admin@hms.com' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:40:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:40:23 - [MESSAGE][PASSED] - Text 'admin@hms.com' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn'
+
+2022-12-19 14:40:23 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-19 14:40:24 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-19 14:40:24 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:40:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:40:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:40:25 - [TEST_STEP][PASSED] - setText(findTestObject("Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn"), password, 0): Text 'sss' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:40:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:40:26 - [MESSAGE][PASSED] - Text 'sss' has been set to element 'Object Repository/Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn'
+
+2022-12-19 14:40:26 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+2022-12-19 14:40:28 - [MESSAGE][PASSED] - Keyboard is hidden
+
+2022-12-19 14:40:28 - [TEST_STEP][PASSED] - tap(findTestObject("Invalid_SignIn_And_SignUp/Button_SignIn"), 0): Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Button_SignIn'
+
+2022-12-19 14:40:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:40:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Invalid_SignIn_And_SignUp/Button_SignIn'
+
+2022-12-19 14:40:29 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-12-19 14:40:34 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-12-19 14:40:34 - [TEST_STEP][PASSED] - if (email == ""): null
+
+2022-12-19 14:40:34 - [TEST_STEP][PASSED] - else if (email.contains("@gmail.com") || email.contains("@hms.com") == false): null
+
+2022-12-19 14:40:34 - [TEST_STEP][PASSED] - else if (password == ""): null
+
+2022-12-19 14:40:34 - [TEST_STEP][PASSED] - else if (password.length() < 5): Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Password Length_SignIn' is visible
+
+2022-12-19 14:40:34 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Invalid_SignIn_And_SignUp/Text_v8_Password Length_SignIn"), 0): Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Password Length_SignIn' is visible
+
+2022-12-19 14:40:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-12-19 14:40:34 - [MESSAGE][PASSED] - Element 'Object Repository/Invalid_SignIn_And_SignUp/Text_v8_Password Length_SignIn' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-19 14:37:42 - [TEST_SUITE][PASSED] - SignInInvalid: Test Cases/A_PreCondition/TC_00_SignIn Invalid]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

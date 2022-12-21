@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_010_Doctor_Insert_Medical_Diagnose_Valid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8419588a-4aa4-4f7b-86d2-50d1d512f277</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3f3a6b6-6b63-4af2-abc9-da037d72eea9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>22975938-daef-400d-afcf-2992a3881e99</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Fever'</defaultValue>
+      <description></description>
+      <id>c3f3a6b6-6b63-4af2-abc9-da037d72eea9</id>
+      <masked>false</masked>
+      <name>diagnose</name>
+   </variable>
+   <variable>
+      <defaultValue>'Paracetamol'</defaultValue>
+      <description></description>
+      <id>22975938-daef-400d-afcf-2992a3881e99</id>
+      <masked>false</masked>
+      <name>prescreption</name>
+   </variable>
+</TestCaseEntity>

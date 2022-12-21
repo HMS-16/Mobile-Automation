@@ -17,3 +17,42 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('A_Authentication/TC_03_SignIn_As_Admin'), [('email') : 'azhar@gmail.com', ('password') : 'azhar'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Field_Name_Default_Sign Up'), 0)
+
+Mobile.setText(findTestObject('Invalid_SignIn_And_SignUp/Field_Name_Default_Sign Up'), name, 0)
+
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Field_Registration Number_Default_SignUp'), 0)
+
+Mobile.setText(findTestObject('Invalid_SignIn_And_SignUp/Field_Registration Number_Default_SignUp'), registNum, 0)
+
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Dropdown_ChooseRole_Default_SignUp'), 0)
+
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Dropdown_Nurse_SignUp'), 0, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Field_Email_Default_SignUp'), 0)
+
+Mobile.setText(findTestObject('Invalid_SignIn_And_SignUp/Field_Email_Default_SignUp'), email, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Field_Password_Default_SignUp'), 0)
+
+Mobile.setText(findTestObject('Invalid_SignIn_And_SignUp/Field_Password_Default_SignUp'), password, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Field_ConfirmPassword_Default_SIgnUp'), 0)
+
+Mobile.setText(findTestObject('Invalid_SignIn_And_SignUp/Field_ConfirmPassword_Default_SIgnUp'), confirmPassword, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Button_SignUp'), 0)
+
+Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Invalid_SignIn_And_SignUp/Button_SignIn_byAttribut'), 0)
+

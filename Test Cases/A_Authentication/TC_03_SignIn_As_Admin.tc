@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_03_SignIn_As_Admin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5bd5f981-1377-460e-9179-b17414dae201</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>08041c1f-1e83-49ab-a18f-edc7c80f69c0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d0d81fcd-b486-4a39-a536-f6778c4650b8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'azhar@gmail.com'</defaultValue>
+      <description></description>
+      <id>08041c1f-1e83-49ab-a18f-edc7c80f69c0</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'azhar'</defaultValue>
+      <description></description>
+      <id>d0d81fcd-b486-4a39-a536-f6778c4650b8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

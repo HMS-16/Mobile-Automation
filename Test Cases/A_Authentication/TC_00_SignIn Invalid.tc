@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_00_SignIn Invalid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c4b4c4e-7c4d-4043-a861-b05caaaf82f7</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5e605845-810a-46cb-88fb-5949d574f77c</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/InvalidSignIn</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5e605845-810a-46cb-88fb-5949d574f77c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>5f176066-c2fc-4c0a-b4c9-897985fff69e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5e605845-810a-46cb-88fb-5949d574f77c</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>e73f0eb4-795d-4db8-be48-c563b51114a3</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5f176066-c2fc-4c0a-b4c9-897985fff69e</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'dd'</defaultValue>
+      <description></description>
+      <id>e73f0eb4-795d-4db8-be48-c563b51114a3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -16,4 +16,56 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.lang.Integer as Integer
+
+WebUI.callTestCase(findTestCase('C_View Patient Data/TC_007_Nurse_Medical Record'), [('search') : 'wendy'], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Add Medical Recordd/Field_Height'), 0)
+
+Mobile.setText(findTestObject('Add Medical Recordd/Field_Height'), 132.toInteger(), 0)
+
+
+Mobile.tap(findTestObject('Add Medical Recordd/Field_Weight'), 0)
+
+Mobile.setText(findTestObject('Add Medical Recordd/Field_Weight'), 23.toInteger(), 0)
+
+Mobile.tap(findTestObject('Add Medical Recordd/Field_BloodPressure'), 0)
+
+Mobile.setText(findTestObject('Add Medical Recordd/Field_BloodPressure'), 54.toInteger(), 0)
+
+Mobile.tap(findTestObject('Add Medical Recordd/Field_SugarAnalysis'), 0)
+
+Mobile.setText(findTestObject('Add Medical Recordd/Field_SugarAnalysis'), 54.toInteger(), 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Add Medical Recordd/Field_BodyTemperature'), 0)
+
+Mobile.setText(findTestObject('Add Medical Recordd/Field_BodyTemperature'), 65.toInteger(), 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Add Medical Recordd/Field_HeartRate'), 0)
+
+Mobile.setText(findTestObject('Add Medical Recordd/Field_HeartRate'),65.toInteger(), 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Add Medical Recordd/Field_BreatheRate'), 0)
+
+Mobile.setText(findTestObject('Add Medical Recordd/Field_BreatheRate'),76.toInteger(), 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Add Medical Recordd/Field_Note'), 0)
+
+Mobile.setText(findTestObject('Add Medical Recordd/Field_Note'), note, 0)
+
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Add Medical Recordd/Button_Save'), 0)
+
+Mobile.tap(findTestObject('Add Medical Recordd/Validation_Record_Yes_Button'), 0)
+
+Mobile.verifyElementVisible(findTestObject('Patient/Psge_Patient_Medical_Record'), 0)
 

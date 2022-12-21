@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_005_Nurse_View Patient Detail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f769a875-648b-488c-88db-81c973840696</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a6901be9-a2ab-456f-b8b3-04eb0bdeae97</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'wendy'</defaultValue>
+      <description></description>
+      <id>a6901be9-a2ab-456f-b8b3-04eb0bdeae97</id>
+      <masked>false</masked>
+      <name>search</name>
+   </variable>
+</TestCaseEntity>

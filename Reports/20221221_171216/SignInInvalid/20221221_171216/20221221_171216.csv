@@ -1,0 +1,77 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SignInInvalid,,,,2022-12-21 17:12:20,2022-12-21 17:18:41,6m - 21.113s,PASSED
+,,,,,,,
+Test Cases/A_Authentication/TC_00_SignIn Invalid,,,,2022-12-21 17:12:20,2022-12-21 17:13:32,1m - 11.699s,PASSED
+"startApplication(""C:\Users\User\Downloads\Mediclinic v.1.0.10.apk"", true)",,,,2022-12-21 17:12:21,2022-12-21 17:12:59,38.220s,PASSED
+"tap(findTestObject(""Object Repository/invalid1/SignIn/android.view.View""), 0)",,,,2022-12-21 17:12:59,2022-12-21 17:13:02,3.497s,PASSED
+"tap(findTestObject(""invalid1/invalid/Button_SplashScreen_SignIn""), 0)",,,,2022-12-21 17:13:02,2022-12-21 17:13:03,0.662s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), 0)",,,,2022-12-21 17:13:03,2022-12-21 17:13:05,2.337s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), email, 0)",,,,2022-12-21 17:13:05,2022-12-21 17:13:07,1.240s,PASSED
+hideKeyboard(),,,,2022-12-21 17:13:07,2022-12-21 17:13:11,4.499s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), 0)",,,,2022-12-21 17:13:11,2022-12-21 17:13:12,0.865s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), password, 0)",,,,2022-12-21 17:13:12,2022-12-21 17:13:15,2.790s,PASSED
+hideKeyboard(),,,,2022-12-21 17:13:15,2022-12-21 17:13:18,2.872s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Button_SignIn_byAttribut""), 0)",,,,2022-12-21 17:13:18,2022-12-21 17:13:18,0.599s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-12-21 17:13:18,2022-12-21 17:13:23,5.077s,PASSED
+"datafile = findTestData(""Data Files/InvalidSignIn"")",,,,2022-12-21 17:13:23,2022-12-21 17:13:26,2.118s,PASSED
+"for ([Row = 1, Row <= datafile.getRowNumbers(), (Row++)])",,,,2022-12-21 17:13:26,2022-12-21 17:13:32,6.134s,PASSED
+,,,,,,,
+Test Cases/A_Authentication/TC_00_SignIn Invalid,,,,2022-12-21 17:13:32,2022-12-21 17:14:31,59.124s,PASSED
+"startApplication(""C:\Users\User\Downloads\Mediclinic v.1.0.10.apk"", true)",,,,2022-12-21 17:13:32,2022-12-21 17:14:06,34.181s,PASSED
+"tap(findTestObject(""Object Repository/invalid1/SignIn/android.view.View""), 0)",,,,2022-12-21 17:14:06,2022-12-21 17:14:08,2.458s,PASSED
+"tap(findTestObject(""invalid1/invalid/Button_SplashScreen_SignIn""), 0)",,,,2022-12-21 17:14:08,2022-12-21 17:14:11,2.338s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), 0)",,,,2022-12-21 17:14:11,2022-12-21 17:14:14,2.895s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), email, 0)",,,,2022-12-21 17:14:14,2022-12-21 17:14:16,2.114s,PASSED
+hideKeyboard(),,,,2022-12-21 17:14:16,2022-12-21 17:14:18,2.116s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), 0)",,,,2022-12-21 17:14:18,2022-12-21 17:14:19,0.723s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), password, 0)",,,,2022-12-21 17:14:19,2022-12-21 17:14:20,1.302s,PASSED
+hideKeyboard(),,,,2022-12-21 17:14:20,2022-12-21 17:14:23,2.905s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Button_SignIn_byAttribut""), 0)",,,,2022-12-21 17:14:23,2022-12-21 17:14:23,0.684s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-12-21 17:14:23,2022-12-21 17:14:28,5.019s,PASSED
+"datafile = findTestData(""Data Files/InvalidSignIn"")",,,,2022-12-21 17:14:28,2022-12-21 17:14:29,0.160s,PASSED
+"for ([Row = 1, Row <= datafile.getRowNumbers(), (Row++)])",,,,2022-12-21 17:14:29,2022-12-21 17:14:31,2.159s,PASSED
+,,,,,,,
+Test Cases/A_Authentication/TC_00_SignIn Invalid,,,,2022-12-21 17:14:31,2022-12-21 17:15:17,46.310s,PASSED
+"startApplication(""C:\Users\User\Downloads\Mediclinic v.1.0.10.apk"", true)",,,,2022-12-21 17:14:31,2022-12-21 17:14:51,19.842s,PASSED
+"tap(findTestObject(""Object Repository/invalid1/SignIn/android.view.View""), 0)",,,,2022-12-21 17:14:51,2022-12-21 17:14:53,2.670s,PASSED
+"tap(findTestObject(""invalid1/invalid/Button_SplashScreen_SignIn""), 0)",,,,2022-12-21 17:14:53,2022-12-21 17:14:55,2.082s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), 0)",,,,2022-12-21 17:14:55,2022-12-21 17:14:58,2.901s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), email, 0)",,,,2022-12-21 17:14:58,2022-12-21 17:15:01,2.220s,PASSED
+hideKeyboard(),,,,2022-12-21 17:15:01,2022-12-21 17:15:03,2.789s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), 0)",,,,2022-12-21 17:15:03,2022-12-21 17:15:04,0.826s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), password, 0)",,,,2022-12-21 17:15:04,2022-12-21 17:15:06,1.378s,PASSED
+hideKeyboard(),,,,2022-12-21 17:15:06,2022-12-21 17:15:09,3.199s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Button_SignIn_byAttribut""), 0)",,,,2022-12-21 17:15:09,2022-12-21 17:15:09,0.592s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-12-21 17:15:09,2022-12-21 17:15:14,5.010s,PASSED
+"datafile = findTestData(""Data Files/InvalidSignIn"")",,,,2022-12-21 17:15:14,2022-12-21 17:15:14,0.090s,PASSED
+"for ([Row = 1, Row <= datafile.getRowNumbers(), (Row++)])",,,,2022-12-21 17:15:14,2022-12-21 17:15:17,2.660s,PASSED
+,,,,,,,
+Test Cases/A_Authentication/TC_00_SignIn Invalid,,,,2022-12-21 17:17:08,2022-12-21 17:18:01,53.469s,PASSED
+"startApplication(""C:\Users\User\Downloads\Mediclinic v.1.0.10.apk"", true)",,,,2022-12-21 17:17:08,2022-12-21 17:17:37,28.705s,PASSED
+"tap(findTestObject(""Object Repository/invalid1/SignIn/android.view.View""), 0)",,,,2022-12-21 17:17:37,2022-12-21 17:17:38,1.847s,PASSED
+"tap(findTestObject(""invalid1/invalid/Button_SplashScreen_SignIn""), 0)",,,,2022-12-21 17:17:38,2022-12-21 17:17:41,2.553s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), 0)",,,,2022-12-21 17:17:41,2022-12-21 17:17:44,2.596s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), email, 0)",,,,2022-12-21 17:17:44,2022-12-21 17:17:46,2.645s,PASSED
+hideKeyboard(),,,,2022-12-21 17:17:46,2022-12-21 17:17:49,2.753s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), 0)",,,,2022-12-21 17:17:49,2022-12-21 17:17:50,0.635s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), password, 0)",,,,2022-12-21 17:17:50,2022-12-21 17:17:51,1.264s,PASSED
+hideKeyboard(),,,,2022-12-21 17:17:51,2022-12-21 17:17:54,2.914s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Button_SignIn_byAttribut""), 0)",,,,2022-12-21 17:17:54,2022-12-21 17:17:54,0.680s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-12-21 17:17:54,2022-12-21 17:17:59,5.007s,PASSED
+"datafile = findTestData(""Data Files/InvalidSignIn"")",,,,2022-12-21 17:17:59,2022-12-21 17:18:00,0.084s,PASSED
+"for ([Row = 1, Row <= datafile.getRowNumbers(), (Row++)])",,,,2022-12-21 17:18:00,2022-12-21 17:18:01,1.737s,PASSED
+,,,,,,,
+Test Cases/A_Authentication/TC_00_SignIn Invalid,,,,2022-12-21 17:18:01,2022-12-21 17:18:41,39.400s,PASSED
+"startApplication(""C:\Users\User\Downloads\Mediclinic v.1.0.10.apk"", true)",,,,2022-12-21 17:18:01,2022-12-21 17:18:21,19.884s,PASSED
+"tap(findTestObject(""Object Repository/invalid1/SignIn/android.view.View""), 0)",,,,2022-12-21 17:18:21,2022-12-21 17:18:23,1.659s,PASSED
+"tap(findTestObject(""invalid1/invalid/Button_SplashScreen_SignIn""), 0)",,,,2022-12-21 17:18:23,2022-12-21 17:18:25,2.379s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), 0)",,,,2022-12-21 17:18:25,2022-12-21 17:18:27,1.675s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), email, 0)",,,,2022-12-21 17:18:27,2022-12-21 17:18:28,1.355s,PASSED
+hideKeyboard(),,,,2022-12-21 17:18:28,2022-12-21 17:18:29,1.074s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), 0)",,,,2022-12-21 17:18:29,2022-12-21 17:18:30,0.582s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), password, 0)",,,,2022-12-21 17:18:30,2022-12-21 17:18:31,1.039s,PASSED
+hideKeyboard(),,,,2022-12-21 17:18:31,2022-12-21 17:18:33,2.546s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Button_SignIn_byAttribut""), 0)",,,,2022-12-21 17:18:33,2022-12-21 17:18:34,0.499s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-12-21 17:18:34,2022-12-21 17:18:39,5.013s,PASSED
+"datafile = findTestData(""Data Files/InvalidSignIn"")",,,,2022-12-21 17:18:39,2022-12-21 17:18:39,0.124s,PASSED
+"for ([Row = 1, Row <= datafile.getRowNumbers(), (Row++)])",,,,2022-12-21 17:18:39,2022-12-21 17:18:41,1.553s,PASSED

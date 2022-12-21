@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/A_Authentication/TC_00_SignIn Invalid","testCaseId":"Test Cases/A_Authentication/TC_00_SignIn Invalid","iterationVariableName":""}
+{"testCaseName":"Test Cases/A_Authentication/TC_00_SignIn Invalid","testCaseId":"Test Cases/A_Authentication/TC_00_SignIn Invalid","iterationVariableName":"","bindedValues":{"password":"\u0027admin\u0027"}}
+{"testCaseName":"Test Cases/A_Authentication/TC_00_SignIn Invalid","testCaseId":"Test Cases/A_Authentication/TC_00_SignIn Invalid","iterationVariableName":"","bindedValues":{"email":"\u0027ssds\u0027"}}
+{"testCaseName":"Test Cases/A_Authentication/TC_00_SignIn Invalid","testCaseId":"Test Cases/A_Authentication/TC_00_SignIn Invalid","iterationVariableName":"","bindedValues":{"email":"\u0027admin@hms.com\u0027"}}
+{"testCaseName":"Test Cases/A_Authentication/TC_00_SignIn Invalid","testCaseId":"Test Cases/A_Authentication/TC_00_SignIn Invalid","iterationVariableName":"","bindedValues":{"password":"\u0027sss\u0027","email":"\u0027admin@hms.com\u0027"}}

@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression_User,,,,2022-12-20 00:55:31,2022-12-20 00:57:54,2m - 22.804s,ERROR
+,,,,,,,
+Test Cases/Regression End to End Testing/TC_Reg_Doctor,,,,2022-12-20 00:57:20,2022-12-20 00:57:54,33.783s,ERROR
+"callTestCase(findTestCase(""A_Authentication/TC_01_SignIn_As_Doctor""), [""email"":""doctor@gmail.com"", ""password"":""password""], STOP_ON_FAILURE)",,,,2022-12-20 00:57:20,2022-12-20 00:57:49,29.697s,PASSED
+"callTestCase(findTestCase(""C_View Patient Data/TC_006_Doctor_View Patient Detail""), [:], STOP_ON_FAILURE)",,,,2022-12-20 00:57:49,2022-12-20 00:57:54,4.063s,ERROR

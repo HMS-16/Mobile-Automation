@@ -17,36 +17,42 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\User\\Downloads\\Mediclinic v.1.0.7.apk', true)
+WebUI.callTestCase(findTestCase('A_Authentication/TC_03_SignIn_As_Admin'), [('email') : 'azhar@gmail.com', ('password') : 'azhar'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.view.View (1)'), 0)
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Field_Name_Default_Sign Up'), 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.Button (2)'), 0)
+Mobile.setText(findTestObject('Invalid_SignIn_And_SignUp/Field_Name_Default_Sign Up'), name, 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Email (2)'), 0)
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Field_Registration Number_Default_SignUp'), 0)
 
-Mobile.setText(findTestObject('Object Repository/SignIn/android.widget.EditText - Email (3)'), 'admin@hms.com', 0)
+Mobile.setText(findTestObject('Invalid_SignIn_And_SignUp/Field_Registration Number_Default_SignUp'), registNum, 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Password (2)'), 0)
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Dropdown_ChooseRole_Default_SignUp'), 0)
 
-Mobile.setText(findTestObject('Object Repository/SignIn/android.widget.EditText - Password (3)'), 'admin', 0)
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Dropdown_Doctor_SignUp'), 0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.Button (3)'), 0)
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Field_Email_Default_SignUp'), 0)
 
-Mobile.delay(0, FailureHandling.STOP_ON_FAILURE)
+Mobile.setText(findTestObject('Invalid_SignIn_And_SignUp/Field_Email_Default_SignUp'), email, 0)
 
-Mobile.tap(findTestObject(''), 0)
+Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.view.View (2)'), 0)
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Field_Password_Default_SignUp'), 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Name'), 0)
+Mobile.setText(findTestObject('Invalid_SignIn_And_SignUp/Field_Password_Default_SignUp'), password, 0)
 
-Mobile.setText(findTestObject('Object Repository/SignIn/android.widget.EditText - Testingdoctor2, Name'), 'TestingDoktorDua', 
-    0)
+Mobile.hideKeyboard()
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.EditText - Registration Number'), 0)
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Field_ConfirmPassword_Default_SIgnUp'), 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.widget.Button (4)'), 0)
+Mobile.setText(findTestObject('Invalid_SignIn_And_SignUp/Field_ConfirmPassword_Default_SIgnUp'), confirmPassword, 0)
 
-Mobile.tap(findTestObject('Object Repository/SignIn/android.view.View (3)'), 0)
+Mobile.hideKeyboard()
+
+Mobile.tap(findTestObject('Invalid_SignIn_And_SignUp/Button_SignUp'), 0)
+
+Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementVisible(findTestObject('Invalid_SignIn_And_SignUp/Button_SignIn_byAttribut'), 0)
 

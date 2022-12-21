@@ -9,78 +9,65 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>f4e1789e-3948-4f9c-a67c-d0d7d1b8e392</variableId>
+      <variableId>dcb8d566-606d-483c-a292-b127a105fd17</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fc6ea2be-56d3-4dd6-889c-a5bfee904b16</variableId>
+      <variableId>31a3af83-e7a1-4b8a-8eab-b795ba268482</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>27b29cf0-1a64-409d-81af-46283dc9569e</variableId>
+      <variableId>a1fa3fda-e1e8-4bb4-b191-98587cc831d4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>29a341fc-c462-4f5d-840a-8ed14f092b23</variableId>
+      <variableId>714c63e2-e8ff-455a-9d04-7f35bb853577</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>15d0cb50-5406-487d-89f8-842e0987715a</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>be330756-1452-4274-9bbb-9aa38e81640e</variableId>
+      <variableId>7c9fcffb-5644-42d5-ab0a-ee150650f252</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'RyanHans'</defaultValue>
       <description></description>
-      <id>f4e1789e-3948-4f9c-a67c-d0d7d1b8e392</id>
+      <id>dcb8d566-606d-483c-a292-b127a105fd17</id>
       <masked>false</masked>
       <name>name</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'2312312347985423'</defaultValue>
       <description></description>
-      <id>fc6ea2be-56d3-4dd6-889c-a5bfee904b16</id>
+      <id>31a3af83-e7a1-4b8a-8eab-b795ba268482</id>
       <masked>false</masked>
-      <name>registrationNumber</name>
+      <name>registNum</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'ryan@gmail.com'</defaultValue>
       <description></description>
-      <id>27b29cf0-1a64-409d-81af-46283dc9569e</id>
-      <masked>false</masked>
-      <name>role</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>29a341fc-c462-4f5d-840a-8ed14f092b23</id>
+      <id>a1fa3fda-e1e8-4bb4-b191-98587cc831d4</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'password'</defaultValue>
       <description></description>
-      <id>15d0cb50-5406-487d-89f8-842e0987715a</id>
+      <id>714c63e2-e8ff-455a-9d04-7f35bb853577</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'password'</defaultValue>
       <description></description>
-      <id>be330756-1452-4274-9bbb-9aa38e81640e</id>
+      <id>7c9fcffb-5644-42d5-ab0a-ee150650f252</id>
       <masked>false</masked>
-      <name>confirmationPassword</name>
+      <name>confirmPassword</name>
    </variable>
 </TestCaseEntity>

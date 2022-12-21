@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_008_Doctor_Medical Diagnose</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc473499-6c30-4498-9556-4210bc3a9d88</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2968aaeb-468c-4be7-af2f-704a4f5b9c22</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'wendy'</defaultValue>
+      <description></description>
+      <id>2968aaeb-468c-4be7-af2f-704a4f5b9c22</id>
+      <masked>false</masked>
+      <name>search</name>
+   </variable>
+</TestCaseEntity>

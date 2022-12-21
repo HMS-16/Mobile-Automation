@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+SignInInvalid,,,,2022-12-19 14:37:42,2022-12-19 14:40:34,2m - 52.266s,PASSED
+,,,,,,,
+Test Cases/A_PreCondition/TC_00_SignIn Invalid,,,,2022-12-19 14:37:43,2022-12-19 14:38:25,42.207s,PASSED
+"startApplication(""C:\Users\User\Downloads\Mediclinic v.1.0.8.apk"", true)",,,,2022-12-19 14:37:43,2022-12-19 14:38:09,25.764s,PASSED
+"tap(findTestObject(""Object Repository/invalid1/SignIn/android.view.View""), 0)",,,,2022-12-19 14:38:09,2022-12-19 14:38:11,1.398s,PASSED
+"tap(findTestObject(""invalid1/invalid/Button_SplashScreen_SignIn""), 0)",,,,2022-12-19 14:38:11,2022-12-19 14:38:12,1.248s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), 0)",,,,2022-12-19 14:38:12,2022-12-19 14:38:13,1.376s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), email, 0)",,,,2022-12-19 14:38:13,2022-12-19 14:38:14,1.135s,PASSED
+hideKeyboard(),,,,2022-12-19 14:38:14,2022-12-19 14:38:15,0.807s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), 0)",,,,2022-12-19 14:38:15,2022-12-19 14:38:16,0.594s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), password, 0)",,,,2022-12-19 14:38:16,2022-12-19 14:38:17,1.076s,PASSED
+hideKeyboard(),,,,2022-12-19 14:38:17,2022-12-19 14:38:19,2.030s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Button_SignIn""), 0)",,,,2022-12-19 14:38:19,2022-12-19 14:38:19,0.570s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-12-19 14:38:19,2022-12-19 14:38:25,5.046s,PASSED
+"if (email == """")",,,,2022-12-19 14:38:25,2022-12-19 14:38:25,0.300s,PASSED
+,,,,,,,
+Test Cases/A_PreCondition/TC_00_SignIn Invalid,,,,2022-12-19 14:38:25,2022-12-19 14:38:58,33.280s,PASSED
+"startApplication(""C:\Users\User\Downloads\Mediclinic v.1.0.8.apk"", true)",,,,2022-12-19 14:38:25,2022-12-19 14:38:40,15.371s,PASSED
+"tap(findTestObject(""Object Repository/invalid1/SignIn/android.view.View""), 0)",,,,2022-12-19 14:38:40,2022-12-19 14:38:41,1.084s,PASSED
+"tap(findTestObject(""invalid1/invalid/Button_SplashScreen_SignIn""), 0)",,,,2022-12-19 14:38:41,2022-12-19 14:38:45,3.292s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), 0)",,,,2022-12-19 14:38:45,2022-12-19 14:38:46,1.382s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), email, 0)",,,,2022-12-19 14:38:46,2022-12-19 14:38:47,1.149s,PASSED
+hideKeyboard(),,,,2022-12-19 14:38:47,2022-12-19 14:38:48,0.778s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), 0)",,,,2022-12-19 14:38:48,2022-12-19 14:38:49,0.570s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), password, 0)",,,,2022-12-19 14:38:49,2022-12-19 14:38:50,1.025s,PASSED
+hideKeyboard(),,,,2022-12-19 14:38:50,2022-12-19 14:38:52,2.183s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Button_SignIn""), 0)",,,,2022-12-19 14:38:52,2022-12-19 14:38:53,1.170s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-12-19 14:38:53,2022-12-19 14:38:58,5.005s,PASSED
+"if (email == """")",,,,2022-12-19 14:38:58,2022-12-19 14:38:58,0.184s,PASSED
+,,,,,,,
+Test Cases/A_PreCondition/TC_00_SignIn Invalid,,,,2022-12-19 14:38:58,2022-12-19 14:39:30,31.971s,PASSED
+"startApplication(""C:\Users\User\Downloads\Mediclinic v.1.0.8.apk"", true)",,,,2022-12-19 14:38:58,2022-12-19 14:39:12,13.795s,PASSED
+"tap(findTestObject(""Object Repository/invalid1/SignIn/android.view.View""), 0)",,,,2022-12-19 14:39:12,2022-12-19 14:39:13,1.089s,PASSED
+"tap(findTestObject(""invalid1/invalid/Button_SplashScreen_SignIn""), 0)",,,,2022-12-19 14:39:13,2022-12-19 14:39:16,3.243s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), 0)",,,,2022-12-19 14:39:16,2022-12-19 14:39:18,1.343s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), email, 0)",,,,2022-12-19 14:39:18,2022-12-19 14:39:19,1.120s,PASSED
+hideKeyboard(),,,,2022-12-19 14:39:19,2022-12-19 14:39:20,0.899s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), 0)",,,,2022-12-19 14:39:20,2022-12-19 14:39:20,0.696s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), password, 0)",,,,2022-12-19 14:39:20,2022-12-19 14:39:22,1.176s,PASSED
+hideKeyboard(),,,,2022-12-19 14:39:22,2022-12-19 14:39:24,2.110s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Button_SignIn""), 0)",,,,2022-12-19 14:39:24,2022-12-19 14:39:25,1.205s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-12-19 14:39:25,2022-12-19 14:39:30,5.017s,PASSED
+"if (email == """")",,,,2022-12-19 14:39:30,2022-12-19 14:39:30,0.001s,PASSED
+"else if (email.contains(""@gmail.com"") || email.contains(""@hms.com"") == false)",,,,2022-12-19 14:39:30,2022-12-19 14:39:30,0.245s,PASSED
+,,,,,,,
+Test Cases/A_PreCondition/TC_00_SignIn Invalid,,,,2022-12-19 14:39:30,2022-12-19 14:40:02,31.927s,PASSED
+"startApplication(""C:\Users\User\Downloads\Mediclinic v.1.0.8.apk"", true)",,,,2022-12-19 14:39:30,2022-12-19 14:39:44,13.894s,PASSED
+"tap(findTestObject(""Object Repository/invalid1/SignIn/android.view.View""), 0)",,,,2022-12-19 14:39:44,2022-12-19 14:39:45,1.166s,PASSED
+"tap(findTestObject(""invalid1/invalid/Button_SplashScreen_SignIn""), 0)",,,,2022-12-19 14:39:45,2022-12-19 14:39:48,3.101s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), 0)",,,,2022-12-19 14:39:48,2022-12-19 14:39:50,1.411s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), email, 0)",,,,2022-12-19 14:39:50,2022-12-19 14:39:51,1.215s,PASSED
+hideKeyboard(),,,,2022-12-19 14:39:51,2022-12-19 14:39:52,0.894s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), 0)",,,,2022-12-19 14:39:52,2022-12-19 14:39:52,0.548s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), password, 0)",,,,2022-12-19 14:39:52,2022-12-19 14:39:53,1.045s,PASSED
+hideKeyboard(),,,,2022-12-19 14:39:53,2022-12-19 14:39:56,2.116s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Button_SignIn""), 0)",,,,2022-12-19 14:39:56,2022-12-19 14:39:57,1.241s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-12-19 14:39:57,2022-12-19 14:40:02,5.015s,PASSED
+"if (email == """")",,,,2022-12-19 14:40:02,2022-12-19 14:40:02,0.001s,PASSED
+"else if (email.contains(""@gmail.com"") || email.contains(""@hms.com"") == false)",,,,2022-12-19 14:40:02,2022-12-19 14:40:02,0.001s,PASSED
+"else if (password == """")",,,,2022-12-19 14:40:02,2022-12-19 14:40:02,0.244s,PASSED
+,,,,,,,
+Test Cases/A_PreCondition/TC_00_SignIn Invalid,,,,2022-12-19 14:40:02,2022-12-19 14:40:34,32.373s,PASSED
+"startApplication(""C:\Users\User\Downloads\Mediclinic v.1.0.8.apk"", true)",,,,2022-12-19 14:40:02,2022-12-19 14:40:16,14.252s,PASSED
+"tap(findTestObject(""Object Repository/invalid1/SignIn/android.view.View""), 0)",,,,2022-12-19 14:40:16,2022-12-19 14:40:18,1.259s,PASSED
+"tap(findTestObject(""invalid1/invalid/Button_SplashScreen_SignIn""), 0)",,,,2022-12-19 14:40:18,2022-12-19 14:40:21,3.289s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), 0)",,,,2022-12-19 14:40:21,2022-12-19 14:40:22,1.384s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Email_Default_SignIn""), email, 0)",,,,2022-12-19 14:40:22,2022-12-19 14:40:23,1.121s,PASSED
+hideKeyboard(),,,,2022-12-19 14:40:23,2022-12-19 14:40:24,0.791s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), 0)",,,,2022-12-19 14:40:24,2022-12-19 14:40:25,0.608s,PASSED
+"setText(findTestObject(""Invalid_SignIn_And_SignUp/Field_Password_Default_SignIn""), password, 0)",,,,2022-12-19 14:40:25,2022-12-19 14:40:26,1.042s,PASSED
+hideKeyboard(),,,,2022-12-19 14:40:26,2022-12-19 14:40:28,2.155s,PASSED
+"tap(findTestObject(""Invalid_SignIn_And_SignUp/Button_SignIn""), 0)",,,,2022-12-19 14:40:28,2022-12-19 14:40:29,1.194s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-12-19 14:40:29,2022-12-19 14:40:34,5.012s,PASSED
+"if (email == """")",,,,2022-12-19 14:40:34,2022-12-19 14:40:34,0.002s,PASSED
+"else if (email.contains(""@gmail.com"") || email.contains(""@hms.com"") == false)",,,,2022-12-19 14:40:34,2022-12-19 14:40:34,0.001s,PASSED
+"else if (password == """")",,,,2022-12-19 14:40:34,2022-12-19 14:40:34,0.000s,PASSED
+else if (password.length() < 5),,,,2022-12-19 14:40:34,2022-12-19 14:40:34,0.247s,PASSED
